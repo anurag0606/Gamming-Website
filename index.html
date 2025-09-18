@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Gaming Website</title>
+
+</head>
+
+<body>
+    <div>
+        <!-- Nev Bar -->
+        <div class="head">
+            <header>
+                <a class="leftnev" href="#">Gamming Website</a>
+                <div class="0">
+                    <ul class="nev">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#games">Games</a></li>
+                        <li><a href="#tournaments">Tournaments</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="searchbox">
+                    <a href="#"><i class='bx bx-search-alt-2'></i></a>
+                    <input type="text" placeholder="Search Games">
+                </div>
+                <!-- Light/Dark mode toggle button -->
+                <!-- <button id="modeToggle" title="Toggle Light/Dark Mode">
+                    <i class='bx bx-sun'></i>
+                </button>
+                <div class="toggleMenu" onclick="toggleMenu1 ()"></div>
+            </header> -->
+        </div>
+
+
+        <div class="content" id="home">
+            <!-- Home Menu -->
+            <div class="home">
+                <div class="homecontent">
+                    <h2>A New Games for</h2><br>
+                    <h2>All GAMER</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, non!</p>
+                    <a href="#">Join Now</a>
+                </div>
+                <div class="image">
+                    <img src="image\sekiro.png" height="500px" width="400px" alt="">
+                </div>
+            </div>
+
+
+            <!-- About -->
+            <div class="about" id="about">
+                <div class="leftabout">
+                    <h2>About Use</h2>
+                    <p>Our gaming website is an ultimate hub for gamers where you can explore, play, and stay updated with the latest in the gaming world. Designed with a sleek and interactive interface,
+                    </p>
+                    <a href="#">Read more</a>
+                </div>
+                <div class="rightabout">
+                    <img src="image/imh.png.avif" width="500px" height="350px">
+                </div>
+            </div>
+
+            <!-- Games -->
+            <div class="games" id="games">
+                <h2>Popular Games</h2>
+                <ul>
+                    <li class="list active" data-filter="all">All Games</li>
+                    <li class="list" data-filter="pc">Pc Games</li>
+                    <li class="list" data-filter="mobile">Mobile Games</li>
+                </ul>
+                <!-- card box -->
+                <div class="gamescardbox">
+                    <div class="gamescard" data-item="pc">
+                        <img src="image/Ghost_of_Tsushima.jpg" alt="">
+                        <div class="gamescontent">
+                            <h4>Ghost of Tsushima</h4>
+                            <div class="progressline"><span></span></div>
+                            <div class="gameinfo">
+                                <p>Pricing <br><span>50$</spaan>
+                                </p>
+                                <a href="">Play Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gamescard" data-item="pc">
+                        <img src="image/imh.png.avif" alt="">
+                        <div class="gamescontent">
+                            <h4>Elden Ring</h4>
+                            <div class="progressline2"><span></span></div>
+                            <div class="gameinfo">
+                                <p>Pricing <br><span>43.17$</spaan>
+                                </p>
+                                <a href="">Play Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gamescard" data-item="pc">
+                        <img src="image/images.jpeg" alt="">
+                        <div class="gamescontent">
+                            <h4>Sekiro</h4>
+                            <div class="progressline3"><span></span></div>
+                            <div class="gameinfo">
+                                <p>Pricing <br><span>Free</spaan>
+                                </p>
+                                <a href="">Play Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gamescard" data-item="mobile">
+                        <img src="image/cod mobile.avif" alt="">
+                        <div class="gamescontent">
+                            <h4>Call of Duty Mobile </h4>
+                            <div class="progressline3"><span></span></div>
+                            <div class="gameinfo">
+                                <p>Pricing <br><span>Free</spaan>
+                                </p>
+                                <a href="">Play Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gamescard" data-item="mobile">
+                        <img src="image/bgmi.webp" alt="">
+                        <div class="gamescontent">
+                            <h4>Battle Ground Mobile</h4>
+                            <div class="progressline3"><span></span></div>
+                            <div class="gameinfo">
+                                <p>Pricing <br><span>Free</spaan>
+                                </p>
+                                <a href="">Play Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gamescard" data-item="mobile">
+                        <img src="image/coc.avif" alt="">
+                        <div class="gamescontent">
+                            <h4>Clash of Clan</h4>
+                            <div class="progressline3"><span></span></div>
+                            <div class="gameinfo">
+                                <p>Pricing <br><span>Free</spaan>
+                                </p>
+                                <a href="">Play Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- New Game 1 -->
+                    <!-- <div class="gamescard" data-item="pc">
+                        <img src="image/gta5.jpg" alt="">
+                        <div class="gamescontent">
+                            <h4>GTA V</h4>
+                            <div class="progressline"><span></span></div>
+                            <div class="gameinfo">
+                                <p>Pricing <br><span>29.99$</span></p>
+                                <a href="">Play Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- New Game 2 -->
+                    <!-- <div class="gamescard" data-item="pc">
+                        <img src="image/minecraft.jpg" alt="">
+                        <div class="gamescontent">
+                            <h4>Minecraft</h4>
+                            <div class="progressline"><span></span></div>
+                            <div class="gameinfo">
+                                <p>Pricing <br><span>26.95$</span></p>
+                                <a href="">Play Now</a>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <!-- New Game 3 -->
+                    <!-- <div class="gamescard" data-item="mobile">
+                        <img src="image/pubg.jpg" alt="">
+                        <div class="gamescontent">
+                            <h4>PUBG Mobile</h4>
+                            <div class="progressline3"><span></span></div>
+                            <div class="gameinfo">
+                                <p>Pricing <br><span>Free</span></p>
+                                <a href="">Play Now</a>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <!-- New Game 4 -->
+                    <!-- <div class="gamescard" data-item="pc">
+                        <img src="image/valorant.jpg" alt="">
+                        <div class="gamescontent">
+                            <h4>Valorant</h4>
+                            <div class="progressline2"><span></span></div>
+                            <div class="gameinfo">
+                                <p>Pricing <br><span>Free</span></p>
+                                <a href="">Play Now</a>
+                            </div>
+                        </div>
+                    </div> --> -->
+                </div>
+            </div>
+            
+
+            <!-- Tournaments -->
+            <div class="tournaments" id="tournaments">
+                <h2>Tournaments</h2>
+                <div class="tourbox">
+                    <div class="tourcard">
+                        <img src="image/tour1.jpg" alt="">
+                        <div class="tourcontent">
+                            <h4><spam>10</spam>Match in progress...</h4>
+                            <p>A Battlegrounds Mobile India tournament with details like entry fee and prize money. The poster features a soldier in armor.</p>
+                            <div class="tourjoinbtn">
+                                <a href="#" class="watch">Watch</a>
+                                <a href="#" class="join">Join Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tourcard">
+                        <img src="image/cod touur2.jpg" alt="">
+                        <div class="tourcontent">
+                            <h4><spam>15</spam>Call of Duty Mobile esports tournament, with soldiers geared up for battle on a green-themed background.</p>
+                            <div class="tourjoinbtn">
+                                <a href="#" class="watch">Watch</a>
+                                <a href="#" class="join">Join Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tourcard">
+                        <img src="image/coctour3.jpg" alt="">
+                        <div class="tourcontent">
+                            <h4><spam>20</spam>Match in progress...</h4>
+                            <p>Clash of Clans tournament called “Clash Cup,” showcasing cartoon-style characters and a golden trophy.</p>
+                            <div class="tourjoinbtn">
+                                <a href="#" class="watch">Watch</a>
+                                <a href="#" class="join">Join Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tourcard">
+                        <img src="image/valo.jpg" alt="">
+                        <div class="tourcontent">
+                            <h4><spam>30</spam>Match in progress...</h4>
+                            <p>Valorant esports tournament with a $1000 prize pool. The poster highlights a game character on a striking red background.</p>
+                            <div class="tourjoinbtn">
+                                <a href="#" class="watch">Watch</a>
+                                <a href="#" class="join">Join Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tourcard">
+                        <img src="image/tour1.jpg" alt="">
+                        <div class="tourcontent">
+                            <h4><spam>10</spam>Match in progress...</h4>
+                            <p>Another Battlegrounds Mobile India event poster, similar to the first one, with soldier artwork and tournament details.</p>
+                            <div class="tourjoinbtn">
+                                <a href="#" class="watch">Watch</a>
+                                <a href="#" class="join">Join Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+
+            <!-- Contact -->
+            <div class="contact" id="contact">
+                <img src="image/123.jpg" alt="">
+                <div class="form">
+                    <h1>Contact Us</h1>
+                    <div class="inputbtn">
+                        <p>Name</p>
+                        <input type="text" placeholder="full name">
+                    </div>
+                    <div class="inputbtn">
+                        <p>E-mail</p>
+                        <input type="text" placeholder="E-mail">
+                    </div>
+                    <div class="inputbtn">
+                        <p>Message</p>
+                        <textarea placeholder="Type Here..."></textarea>
+                    </div>
+                    <div class="inputbtn">
+                        <input type="submit" name="Submit">
+                        <!-- <button type="submit">Submit</button> -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <footer>
+                <div class="footer">
+                    <a href="" class="logo"> Gammers</a>
+                    <p><i class='bx bx-copyright'></i>2024 All Rights Reserved</p>
+                    <ul>
+                        <li><a href="#"><i class='bx bxl-facebook-square'></i></a></li>
+                        <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+                        <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+                        <li><a href="#"><i class='bx bxl-youtube'></i></i></a></li>
+                    </ul>
+                </div>
+            </footer>
+
+
+            
+            
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
